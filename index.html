@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website - Priyanshu Portfolio</title>
+    <link rel="stylesheet" href="./Myportfolio.css">
+    <script src="https://kit.fontawesome.com/204fd99081.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- ---------------Home-------------------- -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./Images/Logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Graphics Designer / Software & Website Developer</p>
+                <h1>Hi, I'm <span>Genius Priyanshu</span><br>From Bhagalpur</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------About-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Images/User.jpg" alt="UseIMG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm a passionate graphics
+                        designer and web developer, dedicated to crafting visually
+                        stunning and functionally seamless digital experiences. With a
+                        blend of creativity and technical expertise, I specialize in creating
+                        captivating designs and user-friendly websites.<br>My journey in the
+                        digital realm is driven by a relentless pursuit of innovation and excellence.
+                        I thrive on pushing boundaries and embracing new challenges, constantly evolving
+                        to stay ahead in this ever-changing landscape. From conceptualizing unique designs
+                        to coding elegant solutions, I bring a holistic approach to every project,
+                        ensuring both aesthetic appeal and optimal user experience.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Graphics Designing</span><br>Canva, Adobe Photoshop</li>
+                            <li><span>Web Development</span><br>HTML, CSS, JavaScript <br>Bootstrap <br>React.JS <br>PHP
+                                <br>Python
+                            </li>
+                            <li><span>MS office</span><br>Word, Excel, Powepoint Etc.</li>
+                            <li><span>YouTube</span><br>Content Creation <br>Video Editing <br>
+                                SEO (Search Engine Optimization) <br>Analytics <br>Adaptability</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Web Development</span><br>+3 yrs</li>
+                            <li><span>UI/UX Graphics Designing</span><br>+3 yrs</li>
+                            <li><span>Video and Animations Editing</span><br>+3 yrs</li>
+                            <li><span>Youtuber</span><br>+5 yrs</li>
+                            <!-- <li><span>YouTube</span><br>Content Creation</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Master of Computer Applications</span><br>Banaras Hindu University
+                                (BHU)<br>2024-2026</li>
+                            <li><span>Bachelor of Computer Applications</span><br>T.N.B College Bhagalpur<br>Tilka
+                                Manjhi Bhagalpur University
+                                (TMBU)<br>2020-2023</li>
+                            <li><span>Intermediate of Science</span><br>S.S.V College Kahalgaon <br>2018-2020</li>
+                            <li><span>Matric</span><br>G.M.Vikramshila High School Antichak<br>2017-2018</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certifications">
+                        <ul>
+                            <li><span>DevTown </span><br>For successfully completing 7-days Bootcamp on
+                                Hotstar Clone using HTML, CSS and JavaScipt</li>
+                            <li><span>TCS iON</span><br>For successfully completing the couse on "Develop
+                                Soft Skill that Industry Demands"</li>
+                            <li><span>TCS iON</span><br>For successfully completing the couse on "Prepare
+                                a Strong Resume and Cover letter"</li>
+                            <li><span>Linkedin Learning</span><br>Ethics in the Age of Generative AI <br>Generative AI :
+                                The Evolution of Thoughtful Online search <br>Work of Generative AI in Realworld</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------Services------------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>I utilize cutting-edge technology to craft
+                        innovative websites, ensuring optimal performance
+                        and user experience. By leveraging modern frameworks
+                        like React, Vue.js, or Angular, along with
+                        responsive design principles and serverless
+                        architecture, I create dynamic and scalable
+                        web solutions that stand out in today's digital
+                        landscape.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-image"></i>
+                    <h2>Graphics Design</h2>
+                    <p>I harness the power of cutting-edge technology
+                        to produce captivating graphics that resonate
+                        with modern audiences. Leveraging advanced
+                        software like Adobe Creative Cloud, Canva,
+                        and Adobe Photoshop, CorelDraw I create visually stunning designs,
+                        animations, and illustrations that push the
+                        boundaries of creativity and innovation in
+                        today's digital landscape.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Video Editing</h2>
+                    <p>I employ state-of-the-art technology to edit videos,
+                        ensuring high-quality and engaging content.
+                        With industry-leading software such as Adobe Premiere Pro,
+                        Final Cut Pro. I enhance visuals, add effects, and refine
+                        audio to create compelling narratives that captivate audiences
+                        and leave a lasting impression.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------Portfolio----------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./Images/Work 1.jpg" alt="work1">
+                    <div class="layer">
+                        <h3>Web Applications</h3>
+                        <p>I have developed various projects in website development,
+                            such as school management website, personal portfolio website, login page Interfaces,
+                            Disney+ hotstar landing page etc. </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/Work 2.jpg" alt="work2">
+                    <div class="layer">
+                        <h3>Graphics Designing</h3>
+                        <p>I have created numerous graphics design, such as college farewell
+                            banners, college fresher party banners, graphics for social media posts,
+                            and many other things, using Canva and Adobe Photoshop. </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/Work 3.jpg" alt="Work3">
+                    <div class="layer">
+                        <h3>Video Editing</h3>
+                        <p>I have edited many videos for my YouTube cahnnel
+                            and have used various videos editing software to make
+                            them look great. Some of the software i use include Adobe Premiere Pro,
+                            final Cut Pro, and Kinemaster.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- --------------Contact---------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>priyanshuraj1403@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 86769 70620</p>
+                    <div class="social-icon">
+                        <a href="https://www.threads.net/genius_priyanshu" target="_blank"><i
+                                class="fa-brands fa-threads"></i></a>
+                        <a href="https://www.linkedin.com/in/genius-priyanshu" target="_blank"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://x.com/realpriyanshu14" target="_blank"><i
+                                class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/genius_priyanshu" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Geniuspriyanshu" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="./Images/Priyanshu Raj CV.pdf" download class="btn btn2" target="_blank">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169; 2024 Genius Priyanshu | All rights reserved</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0"
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px"
+        }
+
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyw4eLHbMNKCqefY_jdvk65JMhTuBY_1f0BQ-k39RMHGvdFHbDn6ja8fP6cfeKC1gHP/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
